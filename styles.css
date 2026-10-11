@@ -1,9 +1,10 @@
 body{
 text-align: center;
-background-color: rgb(73, 73, 73);
+color: white;
+background-color: rgb(0, 0, 0);
 }
 a{
-    color: rgb(1, 41, 5);
+    color: rgb(0, 190, 19);
 }
 a:hover{
     color: rgb(147, 143, 143);
@@ -16,11 +17,11 @@ section{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: rgb(91, 91, 91);
-    padding: 30px 70px;
-    padding-left: 10px;
+    background: rgb(245, 248, 245);
+    padding: 30px;
+    /* padding-left: 10px; */
     text-align: center;
-    border: 1px solid rgb(0, 40, 0);
+    border: 1px solid rgb(0, 183, 0);
     margin: auto;
     border-radius: 10px;
 }
@@ -30,6 +31,7 @@ input{
     border: 1px solid rgb(14, 58, 0);
     background-color: transparent;
     color: black;
+    margin-bottom: 20px;
     
 }
 input::placeholder{
